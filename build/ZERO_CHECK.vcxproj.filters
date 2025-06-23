@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jonat\Documents\Programming\cursor\trading-simulator\build\CMakeFiles\81bdd132421e11230c5dfa93bc458dea\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EBA6EE4A-B996-3E02-95D7-3C985727D739}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

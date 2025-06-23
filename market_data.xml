@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<market_data>
+  <symbol>EXPORT_TEST</symbol>
+  <data_points>50</data_points>
+  <point>
+    <timestamp>2025-06-23 20:25:34</timestamp>
+    <open>94.500000</open>
+    <high>95.500000</high>
+    <low>94.000000</low>
+    <close>95.000000</close>
+    <volume>1000000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-23 21:25:34</timestamp>
+    <open>90.500000</open>
+    <high>91.500000</high>
+    <low>90.000000</low>
+    <close>91.000000</close>
+    <volume>1020000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-23 22:25:34</timestamp>
+    <open>87.500000</open>
+    <high>88.500000</high>
+    <low>87.000000</low>
+    <close>88.000000</close>
+    <volume>1040000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-23 23:25:34</timestamp>
+    <open>85.500000</open>
+    <high>86.500000</high>
+    <low>85.000000</low>
+    <close>86.000000</close>
+    <volume>1060000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-24 00:25:34</timestamp>
+    <open>84.500000</open>
+    <high>85.500000</high>
+    <low>84.000000</low>
+    <close>85.000000</close>
+    <volume>1080000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-24 01:25:34</timestamp>
+    <open>84.500000</open>
+    <high>85.500000</high>
+    <low>84.000000</low>
+    <close>85.000000</close>
+    <volume>1100000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-24 02:25:34</timestamp>
+    <open>85.500000</open>
+    <high>86.500000</high>
+    <low>85.000000</low>
+    <close>86.000000</close>
+    <volume>1120000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-24 03:25:34</timestamp>
+    <open>87.500000</open>
+    <high>88.500000</high>
+    <low>87.000000</low>
+    <close>88.000000</close>
+    <volume>1140000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-24 04:25:34</timestamp>
+    <open>90.500000</open>
+    <high>91.500000</high>
+    <low>90.000000</low>
+    <close>91.000000</close>
+    <volume>1160000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-24 05:25:34</timestamp>
+    <open>94.500000</open>
+    <high>95.500000</high>
+    <low>94.000000</low>
+    <close>95.000000</close>
+    <volume>1180000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-24 06:25:34</timestamp>
+    <open>89.500000</open>
+    <high>90.500000</high>
+    <low>89.000000</low>
+    <close>90.000000</close>
+    <volume>1200000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-24 07:25:34</timestamp>
+    <open>85.500000</open>
+    <high>86.500000</high>
+    <low>85.000000</low>
+    <close>86.000000</close>
+    <volume>1220000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-24 08:25:34</timestamp>
+    <open>82.500000</open>
+    <high>83.500000</high>
+    <low>82.000000</low>
+    <close>83.000000</close>
+    <volume>1240000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-24 09:25:34</timestamp>
+    <open>80.500000</open>
+    <high>81.500000</high>
+    <low>80.000000</low>
+    <close>81.000000</close>
+    <volume>1260000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-24 10:25:34</timestamp>
+    <open>79.500000</open>
+    <high>80.500000</high>
+    <low>79.000000</low>
+    <close>80.000000</close>
+    <volume>1280000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-24 11:25:34</timestamp>
+    <open>79.500000</open>
+    <high>80.500000</high>
+    <low>79.000000</low>
+    <close>80.000000</close>
+    <volume>1300000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-24 12:25:34</timestamp>
+    <open>80.500000</open>
+    <high>81.500000</high>
+    <low>80.000000</low>
+    <close>81.000000</close>
+    <volume>1320000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-24 13:25:34</timestamp>
+    <open>82.500000</open>
+    <high>83.500000</high>
+    <low>82.000000</low>
+    <close>83.000000</close>
+    <volume>1340000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-24 14:25:34</timestamp>
+    <open>85.500000</open>
+    <high>86.500000</high>
+    <low>85.000000</low>
+    <close>86.000000</close>
+    <volume>1360000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-24 15:25:34</timestamp>
+    <open>89.500000</open>
+    <high>90.500000</high>
+    <low>89.000000</low>
+    <close>90.000000</close>
+    <volume>1380000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-24 16:25:34</timestamp>
+    <open>84.500000</open>
+    <high>85.500000</high>
+    <low>84.000000</low>
+    <close>85.000000</close>
+    <volume>1400000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-24 17:25:34</timestamp>
+    <open>80.500000</open>
+    <high>81.500000</high>
+    <low>80.000000</low>
+    <close>81.000000</close>
+    <volume>1420000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-24 18:25:34</timestamp>
+    <open>77.500000</open>
+    <high>78.500000</high>
+    <low>77.000000</low>
+    <close>78.000000</close>
+    <volume>1440000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-24 19:25:34</timestamp>
+    <open>75.500000</open>
+    <high>76.500000</high>
+    <low>75.000000</low>
+    <close>76.000000</close>
+    <volume>1460000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-24 20:25:34</timestamp>
+    <open>74.500000</open>
+    <high>75.500000</high>
+    <low>74.000000</low>
+    <close>75.000000</close>
+    <volume>1480000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-24 21:25:34</timestamp>
+    <open>74.500000</open>
+    <high>75.500000</high>
+    <low>74.000000</low>
+    <close>75.000000</close>
+    <volume>1500000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-24 22:25:34</timestamp>
+    <open>75.500000</open>
+    <high>76.500000</high>
+    <low>75.000000</low>
+    <close>76.000000</close>
+    <volume>1520000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-24 23:25:34</timestamp>
+    <open>77.500000</open>
+    <high>78.500000</high>
+    <low>77.000000</low>
+    <close>78.000000</close>
+    <volume>1540000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-25 00:25:34</timestamp>
+    <open>80.500000</open>
+    <high>81.500000</high>
+    <low>80.000000</low>
+    <close>81.000000</close>
+    <volume>1560000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-25 01:25:34</timestamp>
+    <open>84.500000</open>
+    <high>85.500000</high>
+    <low>84.000000</low>
+    <close>85.000000</close>
+    <volume>1580000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-25 02:25:34</timestamp>
+    <open>79.500000</open>
+    <high>80.500000</high>
+    <low>79.000000</low>
+    <close>80.000000</close>
+    <volume>1600000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-25 03:25:34</timestamp>
+    <open>75.500000</open>
+    <high>76.500000</high>
+    <low>75.000000</low>
+    <close>76.000000</close>
+    <volume>1620000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-25 04:25:34</timestamp>
+    <open>72.500000</open>
+    <high>73.500000</high>
+    <low>72.000000</low>
+    <close>73.000000</close>
+    <volume>1640000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-25 05:25:34</timestamp>
+    <open>70.500000</open>
+    <high>71.500000</high>
+    <low>70.000000</low>
+    <close>71.000000</close>
+    <volume>1660000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-25 06:25:34</timestamp>
+    <open>69.500000</open>
+    <high>70.500000</high>
+    <low>69.000000</low>
+    <close>70.000000</close>
+    <volume>1680000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-25 07:25:34</timestamp>
+    <open>69.500000</open>
+    <high>70.500000</high>
+    <low>69.000000</low>
+    <close>70.000000</close>
+    <volume>1700000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-25 08:25:34</timestamp>
+    <open>70.500000</open>
+    <high>71.500000</high>
+    <low>70.000000</low>
+    <close>71.000000</close>
+    <volume>1720000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-25 09:25:34</timestamp>
+    <open>72.500000</open>
+    <high>73.500000</high>
+    <low>72.000000</low>
+    <close>73.000000</close>
+    <volume>1740000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-25 10:25:34</timestamp>
+    <open>75.500000</open>
+    <high>76.500000</high>
+    <low>75.000000</low>
+    <close>76.000000</close>
+    <volume>1760000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-25 11:25:34</timestamp>
+    <open>79.500000</open>
+    <high>80.500000</high>
+    <low>79.000000</low>
+    <close>80.000000</close>
+    <volume>1780000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-25 12:25:34</timestamp>
+    <open>74.500000</open>
+    <high>75.500000</high>
+    <low>74.000000</low>
+    <close>75.000000</close>
+    <volume>1800000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-25 13:25:34</timestamp>
+    <open>70.500000</open>
+    <high>71.500000</high>
+    <low>70.000000</low>
+    <close>71.000000</close>
+    <volume>1820000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-25 14:25:34</timestamp>
+    <open>67.500000</open>
+    <high>68.500000</high>
+    <low>67.000000</low>
+    <close>68.000000</close>
+    <volume>1840000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-25 15:25:34</timestamp>
+    <open>65.500000</open>
+    <high>66.500000</high>
+    <low>65.000000</low>
+    <close>66.000000</close>
+    <volume>1860000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-25 16:25:34</timestamp>
+    <open>64.500000</open>
+    <high>65.500000</high>
+    <low>64.000000</low>
+    <close>65.000000</close>
+    <volume>1880000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-25 17:25:34</timestamp>
+    <open>64.500000</open>
+    <high>65.500000</high>
+    <low>64.000000</low>
+    <close>65.000000</close>
+    <volume>1900000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-25 18:25:34</timestamp>
+    <open>65.500000</open>
+    <high>66.500000</high>
+    <low>65.000000</low>
+    <close>66.000000</close>
+    <volume>1920000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-25 19:25:34</timestamp>
+    <open>67.500000</open>
+    <high>68.500000</high>
+    <low>67.000000</low>
+    <close>68.000000</close>
+    <volume>1940000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-25 20:25:34</timestamp>
+    <open>70.500000</open>
+    <high>71.500000</high>
+    <low>70.000000</low>
+    <close>71.000000</close>
+    <volume>1960000</volume>
+  </point>
+  <point>
+    <timestamp>2025-06-25 21:25:34</timestamp>
+    <open>74.500000</open>
+    <high>75.500000</high>
+    <low>74.000000</low>
+    <close>75.000000</close>
+    <volume>1980000</volume>
+  </point>
+</market_data>

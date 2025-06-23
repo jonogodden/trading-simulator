@@ -1,0 +1,10 @@
+^C:\USERS\JONAT\DOCUMENTS\PROGRAMMING\CURSOR\TRADING-SIMULATOR\BUILD\CMAKEFILES\81BDD132421E11230C5DFA93BC458DEA\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jonat/Documents/Programming/cursor/trading-simulator -BC:/Users/jonat/Documents/Programming/cursor/trading-simulator/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/TradingSimulator.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
