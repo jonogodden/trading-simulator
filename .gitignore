@@ -35,6 +35,7 @@ ipch/
 *.pch
 *.rsp
 *.sbr
+*.vs
 
 # ----------------------------
 # CMake / build artifacts
