@@ -5,6 +5,7 @@
 #include <iomanip>
 #include <algorithm>
 #include <filesystem>
+#include <cctype>
 
 namespace trading
 {
@@ -77,7 +78,8 @@ namespace trading
             if (!validate_config(config))
                 return false;
 
-            std::ofstream file(config.filename);
+            std::string output_path = ExportUtils::get_output_path(config.filename);
+            std::ofstream file(output_path);
             if (!file.is_open())
                 return false;
 
@@ -115,7 +117,8 @@ namespace trading
             if (!validate_config(config))
                 return false;
 
-            std::ofstream file(config.filename);
+            std::string output_path = ExportUtils::get_output_path(config.filename);
+            std::ofstream file(output_path);
             if (!file.is_open())
                 return false;
 
@@ -154,7 +157,8 @@ namespace trading
             if (!validate_config(config))
                 return false;
 
-            std::ofstream file(config.filename);
+            std::string output_path = ExportUtils::get_output_path(config.filename);
+            std::ofstream file(output_path);
             if (!file.is_open())
                 return false;
 
@@ -187,7 +191,8 @@ namespace trading
             if (!validate_config(config))
                 return false;
 
-            std::ofstream file(config.filename);
+            std::string output_path = ExportUtils::get_output_path(config.filename);
+            std::ofstream file(output_path);
             if (!file.is_open())
                 return false;
 
@@ -219,7 +224,8 @@ namespace trading
             if (!validate_config(config))
                 return false;
 
-            std::ofstream file(config.filename);
+            std::string output_path = ExportUtils::get_output_path(config.filename);
+            std::ofstream file(output_path);
             if (!file.is_open())
                 return false;
 
@@ -313,7 +319,8 @@ namespace trading
             if (!validate_config(config))
                 return false;
 
-            std::ofstream file(config.filename);
+            std::string output_path = ExportUtils::get_output_path(config.filename);
+            std::ofstream file(output_path);
             if (!file.is_open())
                 return false;
 
@@ -345,7 +352,8 @@ namespace trading
             if (!validate_config(config))
                 return false;
 
-            std::ofstream file(config.filename);
+            std::string output_path = ExportUtils::get_output_path(config.filename);
+            std::ofstream file(output_path);
             if (!file.is_open())
                 return false;
 
@@ -391,7 +399,8 @@ namespace trading
             if (!validate_config(config))
                 return false;
 
-            std::ofstream file(config.filename);
+            std::string output_path = ExportUtils::get_output_path(config.filename);
+            std::ofstream file(output_path);
             if (!file.is_open())
                 return false;
 
@@ -445,7 +454,8 @@ namespace trading
             if (!validate_config(config))
                 return false;
 
-            std::ofstream file(config.filename);
+            std::string output_path = ExportUtils::get_output_path(config.filename);
+            std::ofstream file(output_path);
             if (!file.is_open())
                 return false;
 
@@ -480,7 +490,8 @@ namespace trading
             if (!validate_config(config))
                 return false;
 
-            std::ofstream file(config.filename);
+            std::string output_path = ExportUtils::get_output_path(config.filename);
+            std::ofstream file(output_path);
             if (!file.is_open())
                 return false;
 
@@ -573,7 +584,8 @@ namespace trading
             if (!validate_config(config))
                 return false;
 
-            std::ofstream file(config.filename);
+            std::string output_path = ExportUtils::get_output_path(config.filename);
+            std::ofstream file(output_path);
             if (!file.is_open())
                 return false;
 
@@ -889,6 +901,28 @@ namespace trading
             std::ostringstream oss;
             oss << base_name << "_" << std::put_time(std::localtime(&time_t), "%Y%m%d_%H%M%S") << extension;
             return oss.str();
+        }
+
+        std::string ExportUtils::get_output_path(const std::string &filename)
+        {
+            // Ensure output directory exists
+            ensure_directory("output");
+            
+            // Check if filename already contains output directory
+            std::string filename_lower = filename;
+            std::transform(filename_lower.begin(), filename_lower.end(), filename_lower.begin(), ::tolower);
+            if (filename_lower.find("output/") == 0 || 
+                filename_lower.find("output\\") == 0)
+            {
+                // Already contains output path, return as is
+                return filename;
+            }
+            
+            // Use filesystem::path for cross-platform path handling
+            std::filesystem::path output_dir("output");
+            std::filesystem::path file_path(filename);
+            std::filesystem::path result = output_dir / file_path;
+            return result.string();
         }
 
         bool ExportUtils::ensure_directory(const std::string &path)

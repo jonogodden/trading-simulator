@@ -1,4 +1,5 @@
 #include "visualization/dashboard.h"
+#include "visualization/data_export.h"
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -772,7 +773,8 @@ namespace trading
 
         void Dashboard::export_layout(const std::string &filename)
         {
-            std::ofstream file(filename);
+            std::string output_path = ExportUtils::get_output_path(filename);
+            std::ofstream file(output_path);
             if (!file.is_open())
             {
                 return;

@@ -1,15 +1,15 @@
-C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/CMakeFiles/RUN_TESTS.dir
-C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/src/CMakeFiles/trading_simulator.dir
-C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/src/CMakeFiles/RUN_TESTS.dir
-C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/src/core/CMakeFiles/core_lib.dir
-C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/src/core/CMakeFiles/RUN_TESTS.dir
-C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/src/data/CMakeFiles/data_lib.dir
-C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/src/data/CMakeFiles/RUN_TESTS.dir
-C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/src/strategies/CMakeFiles/RUN_TESTS.dir
-C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/src/analytics/CMakeFiles/RUN_TESTS.dir
-C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/src/visualization/CMakeFiles/visualization_lib.dir
-C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/src/visualization/CMakeFiles/RUN_TESTS.dir
-C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/tests/CMakeFiles/unit_tests.dir
-C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/tests/CMakeFiles/RUN_TESTS.dir
+C:/Users/jonat/Programming/trading simulator/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/jonat/Programming/trading simulator/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/jonat/Programming/trading simulator/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/jonat/Programming/trading simulator/build/src/CMakeFiles/trading_simulator.dir
+C:/Users/jonat/Programming/trading simulator/build/src/CMakeFiles/RUN_TESTS.dir
+C:/Users/jonat/Programming/trading simulator/build/src/core/CMakeFiles/core_lib.dir
+C:/Users/jonat/Programming/trading simulator/build/src/core/CMakeFiles/RUN_TESTS.dir
+C:/Users/jonat/Programming/trading simulator/build/src/data/CMakeFiles/data_lib.dir
+C:/Users/jonat/Programming/trading simulator/build/src/data/CMakeFiles/RUN_TESTS.dir
+C:/Users/jonat/Programming/trading simulator/build/src/strategies/CMakeFiles/RUN_TESTS.dir
+C:/Users/jonat/Programming/trading simulator/build/src/analytics/CMakeFiles/RUN_TESTS.dir
+C:/Users/jonat/Programming/trading simulator/build/src/visualization/CMakeFiles/visualization_lib.dir
+C:/Users/jonat/Programming/trading simulator/build/src/visualization/CMakeFiles/RUN_TESTS.dir
+C:/Users/jonat/Programming/trading simulator/build/tests/CMakeFiles/unit_tests.dir
+C:/Users/jonat/Programming/trading simulator/build/tests/CMakeFiles/RUN_TESTS.dir

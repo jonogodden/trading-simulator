@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jonat\Documents\Programming\cursor\trading-simulator\build\CMakeFiles\81bdd132421e11230c5dfa93bc458dea\RUN_TESTS_force.rule">
+    <CustomBuild Include="C:\Users\jonat\Programming\trading simulator\build\CMakeFiles\d59d0b37a50f32a10c2bb4d836ba0ef3\RUN_TESTS_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{EBA6EE4A-B996-3E02-95D7-3C985727D739}</UniqueIdentifier>
+      <UniqueIdentifier>{6ADF0197-0594-3954-9F96-8D7883EBAF50}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

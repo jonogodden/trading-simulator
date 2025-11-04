@@ -486,7 +486,7 @@ void test_chart_renderer()
         config.show_grid = true;
         config.show_legend = true;
 
-        bool success = html_renderer->render_line_chart(line_series, config);
+            bool success = html_renderer->render_line_chart(line_series, config);
         if (success)
         {
             std::cout << "Line chart rendered successfully" << std::endl;
@@ -752,16 +752,16 @@ int main()
 
         std::cout << "All tests completed successfully!" << std::endl;
         std::cout << "Phase 3 visualization is working correctly." << std::endl;
-        std::cout << "Generated files:" << std::endl;
-        std::cout << "  - sample_chart.html (HTML candlestick chart)" << std::endl;
-        std::cout << "  - sample_chart.txt (Console chart)" << std::endl;
-        std::cout << "  - line_chart.html (Line chart)" << std::endl;
-        std::cout << "  - dashboard_layout.json (Dashboard layout)" << std::endl;
-        std::cout << "  - market_data.csv (CSV export)" << std::endl;
-        std::cout << "  - market_data.json (JSON export)" << std::endl;
-        std::cout << "  - market_data.xml (XML export)" << std::endl;
-        std::cout << "  - batch_market_data.csv (Batch CSV export)" << std::endl;
-        std::cout << "  - batch_market_data.json (Batch JSON export)" << std::endl;
+        std::cout << "Generated files (saved to output/ folder):" << std::endl;
+        std::cout << "  - output/sample_chart.html (HTML candlestick chart)" << std::endl;
+        std::cout << "  - output/sample_chart.txt (Console chart)" << std::endl;
+        std::cout << "  - output/line_chart.html (Line chart)" << std::endl;
+        std::cout << "  - output/dashboard_layout.json (Dashboard layout)" << std::endl;
+        std::cout << "  - output/market_data.csv (CSV export)" << std::endl;
+        std::cout << "  - output/market_data.json (JSON export)" << std::endl;
+        std::cout << "  - output/market_data.xml (XML export)" << std::endl;
+        std::cout << "  - output/batch_market_data.csv (Batch CSV export)" << std::endl;
+        std::cout << "  - output/batch_market_data.json (Batch JSON export)" << std::endl;
     }
     catch (const std::exception &e)
     {

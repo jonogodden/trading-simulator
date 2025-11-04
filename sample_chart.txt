@@ -1,3 +1,0 @@
-Chart: Console Candlestick Chart
-Generated: 2025-06-23 20:25:34
-

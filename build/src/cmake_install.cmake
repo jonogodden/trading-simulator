@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/jonat/Documents/Programming/cursor/trading-simulator/src
+# Install script for directory: C:/Users/jonat/Programming/trading simulator/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,32 +34,32 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/src/core/cmake_install.cmake")
+  include("C:/Users/jonat/Programming/trading simulator/build/src/core/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/src/data/cmake_install.cmake")
+  include("C:/Users/jonat/Programming/trading simulator/build/src/data/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/src/strategies/cmake_install.cmake")
+  include("C:/Users/jonat/Programming/trading simulator/build/src/strategies/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/src/analytics/cmake_install.cmake")
+  include("C:/Users/jonat/Programming/trading simulator/build/src/analytics/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/src/visualization/cmake_install.cmake")
+  include("C:/Users/jonat/Programming/trading simulator/build/src/visualization/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/src/install_local_manifest.txt"
+  file(WRITE "C:/Users/jonat/Programming/trading simulator/build/src/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -1,4 +1,5 @@
 #include "visualization/chart_renderer.h"
+#include "visualization/data_export.h"
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -111,7 +112,8 @@ namespace trading
                 return false;
             }
 
-            std::ofstream file(filename);
+            std::string output_path = ExportUtils::get_output_path(filename);
+            std::ofstream file(output_path);
             if (!file.is_open())
             {
                 return false;
@@ -662,7 +664,8 @@ namespace trading
         bool ConsoleChartRenderer::export_to_file(const std::string &filename, const std::string &format)
         {
             // For console renderer, we'll save a simple text representation
-            std::ofstream file(filename);
+            std::string output_path = ExportUtils::get_output_path(filename);
+            std::ofstream file(output_path);
             if (!file.is_open())
             {
                 return false;

@@ -248,6 +248,9 @@ namespace trading
             // Generate filename with timestamp
             std::string generate_filename(const std::string &base_name, const std::string &extension);
 
+            // Get output path (prepends output/ and ensures directory exists)
+            std::string get_output_path(const std::string &filename);
+
             // Create directory if it doesn't exist
             bool ensure_directory(const std::string &path);
 

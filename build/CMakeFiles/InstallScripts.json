@@ -1,14 +1,14 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/cmake_install.cmake",
-		"C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/src/cmake_install.cmake",
-		"C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/src/core/cmake_install.cmake",
-		"C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/src/data/cmake_install.cmake",
-		"C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/src/strategies/cmake_install.cmake",
-		"C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/src/analytics/cmake_install.cmake",
-		"C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/src/visualization/cmake_install.cmake",
-		"C:/Users/jonat/Documents/Programming/cursor/trading-simulator/build/tests/cmake_install.cmake"
+		"C:/Users/jonat/Programming/trading simulator/build/cmake_install.cmake",
+		"C:/Users/jonat/Programming/trading simulator/build/src/cmake_install.cmake",
+		"C:/Users/jonat/Programming/trading simulator/build/src/core/cmake_install.cmake",
+		"C:/Users/jonat/Programming/trading simulator/build/src/data/cmake_install.cmake",
+		"C:/Users/jonat/Programming/trading simulator/build/src/strategies/cmake_install.cmake",
+		"C:/Users/jonat/Programming/trading simulator/build/src/analytics/cmake_install.cmake",
+		"C:/Users/jonat/Programming/trading simulator/build/src/visualization/cmake_install.cmake",
+		"C:/Users/jonat/Programming/trading simulator/build/tests/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
